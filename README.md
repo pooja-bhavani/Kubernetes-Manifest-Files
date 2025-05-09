@@ -35,7 +35,9 @@ nodes:
 - role: worker
   image: kindest/node:v1.31.2
 ```
+Create the cluster using the configuration file:
 
+kind create cluster --name my-kind-cluster --config kind-cluster-config.yaml 
 
 
 
