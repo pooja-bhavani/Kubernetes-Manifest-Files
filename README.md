@@ -21,3 +21,34 @@ rm -f kubectl
 rm -rf kind
 
 ```
+2. Setting Up the KIND Cluster with config-file.yaml
+Create a kind-cluster-config.yaml file
+```
+kind: Cluster
+apiVersion: kind.x-k8s.io/v1alpha4
+
+nodes:
+- role: control-plane
+  image: kindest/node:v1.31.2
+- role: worker
+  image: kindest/node:v1.31.2
+- role: worker
+  image: kindest/node:v1.31.2
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
