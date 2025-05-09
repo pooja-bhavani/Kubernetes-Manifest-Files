@@ -1,6 +1,6 @@
 # KIND Cluster Setup
 1. Installing KIND and kubectl
-
+```
 #!/bin/bash
 
 [ $(uname -m) = x86_64 ] && curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.27.0/kind-linux-amd64
@@ -18,3 +18,4 @@ kubectl version --client
 
 rm -f kubectl
 rm -rf kind
+```
