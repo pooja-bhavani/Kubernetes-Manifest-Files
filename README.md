@@ -1,4 +1,3 @@
-# Kubernetes-Manifest-Files
 # KIND Cluster Setup
 1. Installing KIND and kubectl
 
