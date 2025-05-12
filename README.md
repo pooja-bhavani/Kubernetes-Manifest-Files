@@ -40,8 +40,9 @@ Create the cluster using the configuration file:
 kind create cluster --name my-kind-cluster --config kind-cluster-config.yaml 
 ```
 # To install nginx ingress controller
+```
 kubectl apply -f https://kind.sigs.k8s.io/examples/ingress/deploy-ingress-nginx.yaml
-
+```
 
 
 
