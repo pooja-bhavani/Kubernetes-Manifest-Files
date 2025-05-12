@@ -3,7 +3,7 @@ apiVersion: apps/vi
 metadata:
   name: nginx-deamonsets
   namespace: nginx
-spec:
+spec: 
   selector:
     matchLabels:
       app: nginx
