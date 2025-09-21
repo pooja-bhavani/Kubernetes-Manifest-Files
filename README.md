@@ -1,7 +1,7 @@
 # Used Amazon Q with MCP Servers to generate manifest files
 ![image](https://github.com/user-attachments/assets/e8699222-6445-4231-85cb-fb6eb969d89e)
 
-# KIND Cluster Setup
+# KIND Cluster Setup 
 1. Installing KIND and kubectl 
 ```
 
