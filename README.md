@@ -2,7 +2,7 @@
 ![image](https://github.com/user-attachments/assets/e8699222-6445-4231-85cb-fb6eb969d89e)
 
 # KIND Cluster Setup 
-1. Installing KIND and kubectl 
+1. Installing KIND and kubectl  
 ```
 
 #!/bin/bash 
